@@ -1,0 +1,89 @@
+ <!DOCTYPE html>
+ <html lang="en">
+	<head>	<!--metadata-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>HOME | All About JESSE</title>
+		<link rel="stylesheet" href="./mainstyle.css"> <!--link to css-->
+	</head>
+	<body>
+	<h1>HOW ABOUT YOU???</h1>
+	<nav>	
+			<ul class="navigation">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="sports.html">Sports</a></li>
+				<li><a href="superhero.html">Superheroes</a></li>
+				<li><a href="You.html">Your Turn</a></li> <!--Added new page to nav-->
+			</ul>
+		</nav>
+<form>	<!--Starting form-->
+Name: 
+
+<input type="text" name="name" id="name" required><br><br> <!--Name field for text required-->
+
+Password:
+
+<input type="password" name="password" id="password" required><br><br> <!--Password also-->
+
+
+E-mail Address: <input type="text" name="name" id="name"><br><br> <!--E-mail optional-->
+
+Gender: <input type="radio" name="radiogroup1" value="radio" id="radiogroup1"> Male
+
+<input type="radio" name="radiogroup1" value="radio" id="radiogroup2"> Female
+<input type="radio" name="radiogroup1" value="radio" id="radiogroup3"> Prefer Not To Say<br><br> <!--Gender is radio. Options given with regard towards inclusion -->
+Sport: <select name="sport" id="sport">
+
+<option selected>-- Select Sport --</option>
+
+<option>Football</option>
+
+<option>Soccer</option>
+
+<option>Basketball</option>
+
+<option>Other</option>
+
+</select><br>
+
+<br>			<!--Sport and Superhero are both lists-->
+
+Superhero: <select name="hero" id="hero">
+
+<option selected>-- Select Hero --</option>
+
+<option>Spider-Man</option>
+
+<option>Nightwing</option>
+
+<option>One Of Your Other Favorites That you Did Not Mention</option>
+
+<option>I Have Bad Taste Jesse. Sorry!</option>
+
+</select>
+<br>
+Add More info about YOU: <input type="file" name="filedoc" id="filedoc"><br> <!--file can be uploaded-->
+
+<button type="submit">Submit</button> 
+
+<button type="reset">Reset</button> <!--Submit and reset at the end. Form then closed out-->
+
+</form>
+
+</body>
+
+</html>
+
+
+<script>
+
+var today = new Date();
+
+var time = today.getHours() + ":" + today.getMinutes(); <!--Javascript variables used to determine time box-->
+
+</script>
+<script>
+
+alert(new Date());
+
+</script>
