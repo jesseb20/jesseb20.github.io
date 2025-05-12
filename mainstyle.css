@@ -1,0 +1,29 @@
+html	{
+	font-size: 16px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;	/*comic sans font*/
+body	{
+	background-color: #191970;
+	color: #FFD700;		/*codes for colors*/
+	a:hover	{	
+  color: gold;
+	}
+		}
+h1	{
+		text-align: center;
+	}
+p	{
+		text-align: center;
+	}
+h2	{
+		text-align: center;
+	}
+div	{
+		display: flex;
+		justify-content: center;	/*flex and center image*/
+
+	}
+@media only screen and (max-width: 480px) {
+  .page-title {
+    width: 270px;
+  }
+}
